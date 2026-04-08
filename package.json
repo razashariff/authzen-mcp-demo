@@ -1,0 +1,26 @@
+{
+  "name": "authzen-mcp-demo",
+  "version": "0.1.0",
+  "description": "Reference implementation: AuthZEN PDP API + RFC 9421 Agent-Signature verification for MCP tool calls. Companion to the AuthZEN MCP Profile v0.1 discussion draft.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "authzen",
+    "mcp",
+    "model-context-protocol",
+    "rfc9421",
+    "http-message-signatures",
+    "agent-identity",
+    "openid",
+    "pdp",
+    "agent-security"
+  ],
+  "author": "Raza Sharif <raza@cybersecai.co.uk> (CyberSecAI Ltd)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
